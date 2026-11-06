@@ -3,6 +3,7 @@
 An end-to-end ETL pipeline and star-schema data warehouse built on the Brazilian E-Commerce Public Dataset by Olist (~99K orders, 2016-2018), using SQL Server 2022 Express.
 
 ## Architecture
+<img width="620" height="70" alt="image" src="https://github.com/user-attachments/assets/0f33dcb5-58df-4124-b840-17b96985c002" />
 
 CSV files -> `stg` schema (raw, all-text) -> cleaning & transformation -> `dw` schema (star schema) -> analytical views
 
